@@ -1,0 +1,1 @@
+"""Domain models — plain data carriers shared across layers."""
