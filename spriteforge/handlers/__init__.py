@@ -1,0 +1,1 @@
+"""Feature handlers — thin adapters between UI events and core services."""
