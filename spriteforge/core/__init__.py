@@ -1,0 +1,1 @@
+"""Core engine: diffusion backend abstraction, prompt building, generation loop."""
