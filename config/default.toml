@@ -1,0 +1,30 @@
+# sprite-forge-ai default configuration
+[app]
+name = "sprite-forge-ai"
+version = "0.4.2"
+theme = "dark"
+
+[generation]
+backend = "sdxl-turbo"        # sdxl-turbo | sd15-pixel | flux-schnell
+default_resolution = 64
+steps = 6
+guidance = 1.5
+batch_size = 4
+seed = 6767
+device = "auto"              # auto | cuda | cpu | mps
+
+[postprocess]
+pixel_snap = true
+palette_quantize = true
+palette_size = 24
+outline = "1px-dark"         # none | 1px-dark | 2px-dark | selective
+alpha_threshold = 12
+
+[export]
+export_root = "./exports"
+formats = ["png", "spritesheet", "godot-tres"]
+spritesheet_padding = 2
+
+[security]
+allow_pickle = false
+max_export_bytes = 268435456
