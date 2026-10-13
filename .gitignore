@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+
+# Model + asset caches (never commit weights)
+models/
+*.safetensors
+*.ckpt
+*.pt
+*.bin
+cache/
+generated/
+exports/
+*.spritesheet.png
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Local config
+config/local.toml
+*.log
